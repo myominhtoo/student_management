@@ -9,7 +9,10 @@ class HTTP{
     static function go( string $path  ){
         if(!empty($path)){
             $target = static::$base_url."".$path.".php";
+            
             header("location: $target");
+           
+            exit();
         }
     }
 
