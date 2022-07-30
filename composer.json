@@ -1,0 +1,15 @@
+{
+    "name": "lionel/student",
+    "authors": [
+        {
+            "name": "Myo Min Htoo",
+            "email": "myominhtoo2003@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "App\\" : "app/"
+        }
+    }
+}
